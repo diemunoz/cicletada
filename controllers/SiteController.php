@@ -527,7 +527,7 @@ class SiteController extends Controller
                     $e->LastModified = $this->LastModified();
                     $e->save();
                 }
-            }
+            } 
             
             return $this->redirect(['site/asignacion']);
         }else{
